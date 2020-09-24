@@ -1,5 +1,5 @@
 <h2 style="color:red">Filer On Sale Product / Discount Product </h2>
-Ref:  https://lakewood.media/woocommerce-add-sales-filter/
+Ref:  
 /**
  * WooCommerce Sales Sorting Filter
  * https://lakewood.media/woocommerce-add-sales-filter/
