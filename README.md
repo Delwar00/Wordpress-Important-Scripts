@@ -1,4 +1,4 @@
-<h2 style="color:red">Filer On Sale Product / Discount Product </h2>
+<h2 style="color:red">Filter On Sale Product / Discount Product </h2>
 Ref:  
 /**
  * WooCommerce Sales Sorting Filter
