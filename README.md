@@ -47,3 +47,5 @@ ul li.menu-item-1893 a {
     color: #fff !important;
     border-radius: 5px;
 }
+403 forbidden error solution htaccess file a  ai code tuku dite hobe  <FilesMatch ".(py|exe|phtml|php|PhP|php5|suspected)$">
+</FilesMatch>
