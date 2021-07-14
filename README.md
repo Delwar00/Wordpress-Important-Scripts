@@ -50,3 +50,12 @@ ul li.menu-item-1893 a {
 <br>
 403 forbidden error solution htaccess file a  ai code tuku dite hobe  <FilesMatch ".(py|exe|phtml|php|PhP|php5|suspected)$">
 </FilesMatch>
+<br>
+<br>
+jQuery(document).ready(function($){
+   $("tr.price-table-row.area-input label").html("Benodigde aantal (m<sup>2</sup>)");
+  
+  $('#price_calculator').find('.calculated-price').find("td:first").text('Onze prijs');
+
+});
+
