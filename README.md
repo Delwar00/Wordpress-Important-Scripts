@@ -60,4 +60,59 @@ jQuery(document).ready(function($){
   $('#price_calculator').find('.calculated-price').find("td:first").text('Onze prijs');
 
 });
-
+<h2 style="color:red">Finix template animation Button</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .lol{
+        width:40%;
+        margin:auto;
+        position:relative;
+    }
+    .play-btn{
+        background-color: red;
+        padding:10px 20px;
+        color:white;
+        border-radius:50px;
+        text-decoration: none;
+    }
+    .play-btn:hover::before{
+        content: "";
+        width: 110px;
+        height: 47px;
+        position: absolute;
+        top: -16px;
+        left: -3px;
+        border:1px solid blue;
+        border-radius:50px;
+        animation:mybtn 1s ease-out infinite;
+}
+    @keyframes mybtn {
+        0%{
+            transform:scale(1);
+            opacity:1;
+        }
+        50%{
+            transform:scale(1.5);
+            opacity:.7;
+        }
+        100%{
+            `transform:scale(2);
+             opacity:0;
+        }
+    
+    }
+</style>
+<body>
+    <br><br><br><br>
+      <div class="lol">
+         <a class="play-btn" href="#">Click here</a>
+      </div>
+</body>
+</html>
