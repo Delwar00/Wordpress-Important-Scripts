@@ -54,11 +54,17 @@ ul li.menu-item-1893 a {
 </FilesMatch>
 <br>
 <br>
+<h2 style="color:red">Jquery Important Script</h2>
 jQuery(document).ready(function($){
    $("tr.price-table-row.area-input label").html("Benodigde aantal (m<sup>2</sup>)");
   
   $('#price_calculator').find('.calculated-price').find("td:first").text('Onze prijs');
 
+});
+<br>
+<br>
+jQuery(document).ready(function($){
+     $('table.wpcargo.form-table').find("th:eq( 14 )").text('Departure Date');
 });
 <h2 style="color:red">Finix template animation Button</h2>
 <!DOCTYPE html>
