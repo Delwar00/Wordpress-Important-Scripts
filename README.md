@@ -1,3 +1,21 @@
+<h2 style="color:red">Single product Gallery hover changes featured images using Gallery Slider Module</h2>
+
+jQuery(document).ready(function( $ ){
+
+	$('.jet-woo-swiper-control-thumbs__item').hover(function(){  
+   	 	console.log('okk');
+		var thisImg = $(this).find('img').attr('src');
+		console.log(thisImg);
+		$('.jet-woo-product-gallery__trigger img').attr('src', thisImg);  
+		$('.jet-woo-product-gallery__trigger img').attr('srcset', thisImg); 
+	}); 
+	
+	
+	
+});
+
+
+
 <h2 style="color:red">Mobile App Build Using Wordpress Site</h2>
 https://www.youtube.com/watch?v=pYX-UNVvGA4
 <h2 style="color:red">Filter On Sale Product / Discount Product </h2>
