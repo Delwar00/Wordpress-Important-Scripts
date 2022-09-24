@@ -1,3 +1,12 @@
+<h2 style="color:red">Shop Page Filter mobile responsive crocoblock </h2>
+jQuery(document).ready(function( $ ){
+	$(".filter-content").hide();
+	$(".filter-btn").click(function(){
+		 $(".filter-content").toggle();
+	}); 
+});
+
+
 <h2 style="color:red">Single product Gallery hover changes featured images using Gallery Slider Module</h2>
 
 jQuery(document).ready(function( $ ){
