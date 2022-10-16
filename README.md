@@ -1,3 +1,5 @@
+
+
 <h2 style="color:red">Shop Page Filter mobile responsive crocoblock </h2>
 jQuery(document).ready(function( $ ){
 	$(".filter-content").hide();
@@ -417,3 +419,7 @@ jQuery(document).ready(function($){
 ]
 </body>
 </html>
+
+<h2 style="color:red">Theme license deactivate </h2>
+update_option( sprintf( 'trx_addons_theme_%s_activated', get_option( 'template' ) ), '1' );
+update_option( sprintf( 'purchase_code_%s', get_option( 'template' ) ), 'purchase_code' );
