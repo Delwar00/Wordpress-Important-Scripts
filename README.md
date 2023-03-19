@@ -1,3 +1,7 @@
+<h2 style="color:red">Meta field value filtering using jetengine </h2>
+create a sql query by this image https://prnt.sc/somuExxkOPPh SELECT DISTINCT meta_value FROM {prefix}postmeta WHERE meta_key="text-test" ORDER BY meta_value ASC; 
+using this query just change meta key value depend on your field name 
+and then go to jetsmart filter and see this type of setting https://prnt.sc/1idfhYJ7atO2
 
 
 <h2 style="color:red">Shop Page Filter mobile responsive crocoblock </h2>
