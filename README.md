@@ -1,7 +1,8 @@
-<h2 style="color:red">Meta field value filtering using jetengine </h2>
-create a sql query by this image https://prnt.sc/somuExxkOPPh SELECT DISTINCT meta_value FROM {prefix}postmeta WHERE meta_key="text-test" ORDER BY meta_value ASC; 
-using this query just change meta key value depend on your field name 
-and then go to jetsmart filter and see this type of setting https://prnt.sc/1idfhYJ7atO2
+<h2 style="color:red">Jetform when user login then meta data show dynamically and for logout data can not show so this is the solution </h2>
+Could you please check it?
+By default, the Default value and the preset settings of the JetFormBuilder forms do not work for guest users if it pulls some dynamic values. In order to make it work, need to add the following filter to the functions.php file of the child theme:
+add_filter( 'jet-form-builder/preset-sanitize', function ( $sanitize, \Jet_Form_Builder\Presets\Sources\Base_Source $source ) { if ( jet_fb_live()->form_id == 258314 ) { return true; } return $sanitize; }, 10, 2 );
+
 
 
 <h2 style="color:red">Shop Page Filter mobile responsive crocoblock </h2>
