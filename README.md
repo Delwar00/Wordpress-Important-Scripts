@@ -1,3 +1,5 @@
+
+<h2 style="color:red">Ctrl + Alt + D Crocoblock liense delete </h2>
 <h2 style="color:red">Jetform when user login then meta data show dynamically and for logout data can not show so this is the solution </h2>
 Could you please check it?
 By default, the Default value and the preset settings of the JetFormBuilder forms do not work for guest users if it pulls some dynamic values. In order to make it work, need to add the following filter to the functions.php file of the child theme:
