@@ -1,3 +1,25 @@
+<h2 style="color:red">Thank you page download button crochety</h2>
+jQuery(document).ready(function( $ ){
+    var url = window.location.href;
+	url = url.split('/');
+	if( (url.length == 7) && (url[4] == "order-received") ){
+		var order_id = url[5];
+		if(order_id in localStorage){
+			localStorage.setItem(order_id, 2);
+		}else{
+			localStorage.setItem(order_id, 1);
+		}
+        var counterValue = localStorage.getItem(order_id);
+		if(counterValue == 1){
+			location.reload();
+		}
+	}
+
+	
+});
+
+
+
 
 
 <h2 style="color:red">checkout page product image add </h2>
